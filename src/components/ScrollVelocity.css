@@ -1,0 +1,46 @@
+.parallax {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.scroller {
+  font-size: 15.625rem;
+  font-weight: 700;
+  font-family: "Exo 2", sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.custom-scroll-text {
+  display: inline-block;
+  font-size: 15.625rem;
+  font-weight: 700;
+  font-family: "Exo 2", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 768px) {
+  .scroller {
+    font-size: 8rem;
+  }
+  
+  .custom-scroll-text {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroller {
+    font-size: 5rem;
+  }
+  
+  .custom-scroll-text {
+    font-size: 5rem;
+  }
+}
