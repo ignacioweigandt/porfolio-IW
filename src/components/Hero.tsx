@@ -5,7 +5,7 @@ import ProfileCard from '@/components/ProfileCard'
 import { About } from '@/components/About'
 import { Services } from '@/components/Services'
 import CurvedLoop from '@/components/CurvedLoop'
-import { MisTrabajos } from '@/components/MisTrabajos'
+import { Timeline } from '@/components/Timeline'
 import { Contact } from '@/components/Contact'
 import { Header } from '@/components/Header'
 import { LoadingScreen } from '@/components/LoadingScreen'
@@ -56,7 +56,7 @@ export function Hero() {
         />
       </div>
 
-      <MisTrabajos />
+      <Timeline />
       <Contact />
     </div>
   )

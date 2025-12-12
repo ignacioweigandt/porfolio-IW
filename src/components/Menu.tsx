@@ -18,7 +18,7 @@ export function Menu({ isOpen, onClose }: MenuProps) {
 
   const menuItems = [
     { name: 'INICIO', number: '01', href: '#home' },
-    { name: 'TRABAJOS', number: '02', href: '#work' },
+    { name: 'MI PROCESO', number: '02', href: '#work' },
     { name: 'SOBRE MI', number: '03', href: '#about' },
     { name: 'CONTACTO', number: '04', href: '#contact' }
   ]

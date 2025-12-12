@@ -24,18 +24,18 @@ export function Services() {
     },
     {
       id: 2,
-      title: "Sistemas de Gestión",
-      description: "Desarrollo de sistemas a medida para organizar y optimizar procesos internos de tu negocio."
+      title: "Landing Pages",
+      description: "Páginas de una sola sección optimizadas para conversiones, simples, rápidas y enfocadas en una acción específica: ventas, reservas o generación de leads"
     },
     {
       id: 3,
-      title: "Sistemas de Punto de Venta (POS)",
-      description: "Implementación de soluciones POS integradas para ventas físicas y online."
+      title: "Páginas Empresariales",
+      description: "Sitios completos y profesionales con varias secciones: servicios, nosotros, contacto, portfolios, blog, o lo que tu empresa necesite para mostrarse al mundo."
     },
     {
       id: 4,
-      title: "Páginas Web",
-      description: "Creación de páginas de aterrizaje atractivas y rápidas para potenciar tu presencia digital."
+      title: "Páginas Inmobiliarias",
+      description: "Desarrollo de sitios especializados para inmobiliarias, con fichas de propiedades, fotos, filtros, ubicación y contacto directo por WhatsApp"
     }
   ]
 
