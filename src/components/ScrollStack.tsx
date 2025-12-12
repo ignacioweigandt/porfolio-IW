@@ -179,17 +179,11 @@ const ScrollStack = ({
       duration: 0.8,
       easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
-      touchMultiplier: 1.5,
       infinite: false,
-      gestureOrientationHandler: false,
-      normalizeWheel: true,
-      wheelMultiplier: 0.8,
-      touchInertiaMultiplier: 20,
+      gestureOrientation: 'vertical',
       lerp: 0.05,
       syncTouch: false,
       syncTouchLerp: 0.05,
-      touchInertia: 0.4,
-      overscroll: false,
     });
 
     lenis.on('scroll', handleScroll);

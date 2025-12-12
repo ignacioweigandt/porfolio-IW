@@ -230,9 +230,9 @@ export function Services() {
               >
                 {/* Cuadrado blanco con ícono */}
                 <div className="bg-white w-16 h-16 rounded-lg flex items-center justify-center m-6 mb-4">
-                  <img 
-                    ref={el => iconRefs.current[index] = el}
-                    src="/img/asterisk-svgrepo-com.svg" 
+                  <img
+                    ref={el => { iconRefs.current[index] = el }}
+                    src="/img/asterisk-svgrepo-com.svg"
                     alt={`${service.title} icon`}
                     className="w-8 h-8"
                   />

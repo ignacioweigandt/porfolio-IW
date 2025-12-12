@@ -193,7 +193,7 @@ export function Menu({ isOpen, onClose }: MenuProps) {
             {menuItems.map((item, index) => (
               <div key={item.name} className="flex items-center justify-between border-b border-gray-600 pb-4">
                 <a
-                  ref={el => menuItemsRef.current[index] = el}
+                  ref={el => { menuItemsRef.current[index] = el }}
                   href={item.href}
                   onClick={(e) => {
                     e.preventDefault()
@@ -206,7 +206,7 @@ export function Menu({ isOpen, onClose }: MenuProps) {
                   </span>
                 </a>
                 <span
-                  ref={el => numbersRef.current[index] = el}
+                  ref={el => { numbersRef.current[index] = el }}
                   className="text-2xl lg:text-3xl text-gray-400 font-['Plus_Jakarta_Sans'] font-light"
                 >
                   {item.number}

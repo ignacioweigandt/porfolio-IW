@@ -19,6 +19,10 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: 'Ignacio Weigandt - Portfolio',
   description: 'Portfolio website showcasing my work and skills',
+  icons: {
+    icon: '/img/logo-Web-Studio.svg',
+    apple: '/img/logo-Web-Studio.svg',
+  },
 }
 
 export default function RootLayout({
